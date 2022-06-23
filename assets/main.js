@@ -16,4 +16,8 @@ button10.addEventListener("click", () => {
 button15.addEventListener("click", () => {
   disp.textContent = "added 15";
   indicator.textContent = (parseInt(indicator.textContent) + 15).toString();
+} );
+button20.addEventListener("click", () => {
+  disp.textContent = "added 20";
+  indicator.textContent = (parseInt(indicator.textContent) + 20).toString();
 });
